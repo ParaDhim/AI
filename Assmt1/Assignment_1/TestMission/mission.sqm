@@ -1,0 +1,62 @@
+class Mission
+{
+    class MissionData
+    {
+        title = "Server-Client Messaging Test";
+        description = "A mission to test server-client messaging with 10ms intervals.";
+        briefing = "This mission tests communication between server and client with 'Hello World' messages.";
+        author = "YourName";
+    };
+
+    class Entities
+    {
+        // No entities needed for this basic test
+    };
+
+    class Vehicles
+    {
+        // No vehicles needed for this basic test
+    };
+
+    class Items
+    {
+        // No items needed for this basic test
+    };
+
+    class Triggers
+    {
+        // No triggers needed for this basic test
+    };
+
+    class Waypoints
+    {
+        // No waypoints needed for this basic test
+    };
+
+    class Objects
+    {
+        // No objects needed for this basic test
+    };
+
+    class Markers
+    {
+        // No markers needed for this basic test
+    };
+};
+
+class CfgFunctions
+{
+    class MyMission
+    {
+        class Server
+        {
+            file = "scripts";
+            class serverLoop;
+        };
+        class Client
+        {
+            file = "scripts";
+            class clientLoop;
+        };
+    };
+};

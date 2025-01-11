@@ -1,0 +1,14 @@
+// description.ext
+
+class CfgFunctions {
+    class MyMission {
+        class Server {
+            file = "scripts";
+            class serverLoop;
+        };
+        class Client {
+            file = "scripts";
+            class clientLoop;
+        };
+    };
+};
